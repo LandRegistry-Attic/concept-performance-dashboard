@@ -5,7 +5,6 @@ define([
 ],
 function (ModuleController, VisitorsRealtimeView, ListCollection) {
   var VisitorsRealtimeModule = ModuleController.extend({
-    className: 'realtime',
     visualisationClass: VisitorsRealtimeView,
     collectionClass: ListCollection,
     clientRenderOnInit: true,
