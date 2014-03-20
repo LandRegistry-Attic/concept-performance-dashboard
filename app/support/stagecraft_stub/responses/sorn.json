@@ -19,6 +19,62 @@
   },
   "modules": [
     {
+      "slug": "transactions-per-year",
+      "module-type": "kpi",
+      "title": "Transactions per year",
+      "data-group": "transactions-explorer",
+      "data-type": "spreadsheet",
+      "classes": "cols2",
+      "query-params": {
+        "filter_by": ["service_id:dft-request-statutory-off-road-notice-sorn", "type:seasonally-adjusted"],
+        "sort_by": "_timestamp:descending"
+      },
+      "valueAttr": "number_of_transactions",
+      "format": { "type": "number", "magnitude": true, "dps": 2 }
+    },
+    {
+      "slug": "total-cost",
+      "module-type": "kpi",
+      "title": "Total cost",
+      "data-group": "transactions-explorer",
+      "data-type": "spreadsheet",
+      "classes": "cols2",
+      "query-params": {
+        "filter_by": ["service_id:dft-request-statutory-off-road-notice-sorn", "type:seasonally-adjusted"],
+        "sort_by": "_timestamp:descending"
+      },
+      "valueAttr": "total_cost",
+      "format": { "type": "currency", "magnitude": true, "dps": 2 }
+    },
+    {
+      "slug": "digital-take-up",
+      "module-type": "kpi",
+      "title": "Digital take-up",
+      "data-group": "transactions-explorer",
+      "data-type": "spreadsheet",
+      "classes": "cols2",
+      "query-params": {
+        "filter_by": ["service_id:dft-request-statutory-off-road-notice-sorn", "type:seasonally-adjusted"],
+        "sort_by": "_timestamp:descending"
+      },
+      "valueAttr": "digital_takeup",
+      "format": "percent"
+    },
+    {
+      "slug": "cost-per-transaction",
+      "module-type": "kpi",
+      "title": "Cost per transaction",
+      "data-group": "transactions-explorer",
+      "data-type": "spreadsheet",
+      "classes": "cols2",
+      "query-params": {
+        "filter_by": ["service_id:dft-request-statutory-off-road-notice-sorn", "type:seasonally-adjusted"],
+        "sort_by": "_timestamp:descending"
+      },
+      "valueAttr": "cost_per_transaction",
+      "format": { "type": "currency", "dps": 2 }
+    },
+    {
       "slug": "user-satisfaction",
       "module-type": "user_satisfaction",
       "title": "User satisfaction",
@@ -29,8 +85,7 @@
         "Data source: DVLA database",
         "User satisfaction is measured by surveying a sample of users at the point of transaction completion. It is measured on a five-point scale, from most satisfied to least satisfied. The mean of these responses is converted to a percentage for display purposes."
       ],
-      "value-attribute": "satisfaction_sorn",
-      "classes": ["cols2"]
+      "value-attribute": "satisfaction_sorn"
     },
     {
       "slug": "applications-breakdown",
