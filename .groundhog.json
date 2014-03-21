@@ -1,0 +1,7 @@
+{
+    "dir": "recordings",
+    "hostname": "www.preview.performance.service.gov.uk",
+    "protocol": "https",
+    "port": 3003,
+    "strict": true
+}

@@ -4,7 +4,7 @@ def values
       'no-realistic-dashboard' => {
         title: 'Live service usage',
         description: 'Live service usage',
-        raw: "//div[@class='impact-number']/strong[text()='5']",
+        raw: "//div[@class='impact-number']/strong[text()='14']",
         info: true
       }
     },

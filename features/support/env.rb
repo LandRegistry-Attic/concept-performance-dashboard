@@ -18,7 +18,9 @@ Capybara.default_wait_time = 30
 
 $server = IO.popen("node app/server.js --env development_cucumber -p #{APP_PORT}")
 $server.gets
+$groundhog = IO.popen("groundhog")
 
 at_exit do
   Process.kill("INT", $server.pid)
+  Process.kill("INT", $groundhog.pid)
 end
