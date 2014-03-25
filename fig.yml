@@ -1,7 +1,7 @@
 web:
   build: .
-  command: python app.py
+  command: grunt
   ports:
-   - 5000:5000
+   - 3057:3057
   volumes:
    - .:/code
