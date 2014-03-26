@@ -39,6 +39,7 @@ function (Backbone, PageConfig, Controller, HomepageView) {
         {
           title: 'L',
           services: [
+            {name: 'Land Registration', slug: 'land-registration'},
             {name: 'Lasting Power of Attorney', slug: 'lasting-power-of-attorney'},
             {name: 'Licensing', slug: 'licensing'}
           ]

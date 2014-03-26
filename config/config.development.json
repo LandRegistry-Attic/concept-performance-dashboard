@@ -1,8 +1,8 @@
 {
   "assetPath": "/assets/",
   "port": 3057,
-  "backdropUrl": "http://spotlight.perfplat.dev/backdrop-stub/{{ data-group }}/{{ data-type }}",
-  "screenshotTargetUrl": "http://spotlight.perfplat.dev",
-  "screenshotServiceUrl": "http://spotlight.perfplat.dev:3000",
-  "govukHost": "spotlight.dev.gov.uk"
+  "backdropUrl": "http://concept-performance:3057/backdrop-stub/{{ data-group }}/{{ data-type }}",
+  "screenshotTargetUrl": "http://concept-performance",
+  "screenshotServiceUrl": "http://concept-performance:3000",
+  "govukHost": ".gov.uk"
 }

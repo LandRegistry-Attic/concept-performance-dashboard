@@ -1,0 +1,36 @@
+{
+  "slug": "land-registration",
+  "page-type": "dashboard",
+  "dashboard-type": "transaction",
+  "strapline": "Service dashboard",
+  "description": "<abbr title='Land Registration'>Land Registration</abbr> .",
+  "title": "Land Registration",
+  "department": {
+    "title": "Department for Business Innovation & Skills"
+  },
+  "agency": {
+    "title": "Land Registry"
+  },
+  "relatedPages": {
+    "transaction": {
+      "title": "Registering land or property with the Land Registry",
+      "url": "https://www.gov.uk/registering-land-or-property-with-land-registry"
+      }
+  },
+  "modules": [
+    {
+      "slug": "user-satisfaction",
+      "module-type": "user_satisfaction",
+      "title": "User satisfaction",
+      "description": "Overall opinion of Land Registry services",
+      "data-group": "land-registration",
+      "data-type": "user-satisfaction",
+      "info": [
+        "Data source: Land Registry customer insights",
+        "User satisfaction is an aggregate score measured by surveying a sample of users outside of the transaction on their overall opinion of the Land Registry services."
+      ],
+      "value-attribute": "satisfaction_land_registration",
+      "classes": ["cols2"]
+    }
+  ]
+}
