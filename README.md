@@ -1,3 +1,7 @@
+**DEPRECATED**
+
+*delete, don't use, etc*
+
 # Concept Performance Dashboard #
 
 GOV.UK performance dashboard for the Land Registry concept digital service.
